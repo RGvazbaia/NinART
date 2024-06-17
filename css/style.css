@@ -155,9 +155,15 @@ body {
   color: #5a2525;
 }
 .suggcard {
-  margin: auto;
-  padding: 50px;
-  align-items: center;
+  
+  width: 400px;
+  height: 640px;
+  text-align: center;
+  
+}
+.suggcard :nth-child(1)
+{
+  padding-top: 50px;
 }
 .suggh {
   text-align: center;
